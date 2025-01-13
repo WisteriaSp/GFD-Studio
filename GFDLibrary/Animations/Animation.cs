@@ -249,8 +249,8 @@ namespace GFDLibrary.Animations
         {
             foreach ( var controller in Controllers.ToList() )
             {
-                if ( !controller.FixTargetIds( nodes ) )
-                    Controllers.Remove( controller );
+//                if ( !controller.FixTargetIds( nodes ) )
+//                    Controllers.Remove( controller );
             }
         }
 
